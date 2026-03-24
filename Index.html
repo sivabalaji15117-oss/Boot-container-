@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4 Containers Project</title>
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body{
+            background:#f5f5f5;
+        }
+        .demo-box{
+            padding:30px;
+            margin-top:20px;
+            color:white;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<div class="container text-center mt-4">
+    <h1>Bootstrap 4 Containers Examples</h1>
+    <p>All container examples combined into one project</p>
+</div>
+
+<hr>
+
+<!-- ================= FIXED CONTAINER ================= -->
+<div class="container bg-primary demo-box">
+    <h3>.container (Fixed Width)</h3>
+    <p>
+        This container has a fixed responsive width.
+        It changes size depending on screen breakpoint.
+    </p>
+</div>
+
+<!-- ================= FLUID CONTAINER ================= -->
+<div class="container-fluid bg-success demo-box">
+    <h3>.container-fluid (Full Width)</h3>
+    <p>
+        This container always takes 100% width of the screen.
+    </p>
+</div>
+
+<hr>
+
+<!-- ================= CONTAINER WITH PADDING ================= -->
+<div class="container p-5 bg-dark demo-box">
+    <h3>Container with Padding (p-5)</h3>
+    <p>
+        Bootstrap spacing utilities add padding inside containers.
+    </p>
+</div>
+
+<!-- ================= RESPONSIVE BEHAVIOR ================= -->
+<div class="container bg-info demo-box">
+    <h3>Responsive Container Example</h3>
+    <p>
+        Resize browser window to see container width change automatically.
+    </p>
+</div>
+
+<hr>
+
+<!-- ================= GRID INSIDE CONTAINER ================= -->
+<div class="container">
+    <h3 class="text-center mt-4">Grid Inside Container</h3>
+
+    <div class="row text-white text-center">
+        <div class="col-md-4 bg-danger p-4">Column 1</div>
+        <div class="col-md-4 bg-warning p-4">Column 2</div>
+        <div class="col-md-4 bg-secondary p-4">Column 3</div>
+    </div>
+</div>
+
+<hr>
+
+<!-- ================= NESTED CONTAINER ================= -->
+<div class="container bg-light p-4">
+    <h3>Nested Container Example</h3>
+
+    <div class="container bg-primary text-white p-3">
+        <p>This is a container inside another container.</p>
+    </div>
+</div>
+
+<hr>
+
+<!-- ================= COMPARISON SECTION ================= -->
+<div class="container">
+    <h3 class="text-center">Container vs Fluid Comparison</h3>
+</div>
+
+<div class="container bg-primary demo-box">
+    Fixed Container Width
+</div>
+
+<div class="container-fluid bg-success demo-box">
+    Fluid Container Full Width
+</div>
+
+<hr>
+
+<!-- ================= FOOTER ================= -->
+<div class="container text-center mt-5 mb-4">
+    <p>Bootstrap 4 Containers Project | Created for Practice</p>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
